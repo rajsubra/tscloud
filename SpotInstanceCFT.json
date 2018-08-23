@@ -1,0 +1,20 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "Test Sport Instances",
+  "Resources": {
+    "SpotFleet" : {
+      "Type" : "AWS::EC2::SpotFleet",
+      "Properties" : {
+        "SpotFleetRequestConfigData" : {
+          "IamFleetRole" : "arn:aws:iam::082449889088:role/aws-ec2-spot-fleet-role",
+          "LaunchSpecifications" : [ {
+              "ImageId" : "ami-7c491f05",
+              "InstanceType" : "m3.medium"
+          } ],
+          "SpotPrice" : "0.09",
+          "TargetCapacity" : 1
+        }
+      }
+    }
+  }
+}
