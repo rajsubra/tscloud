@@ -8,7 +8,7 @@
         "SpotFleetRequestConfigData" : {
           "IamFleetRole" : "arn:aws:iam::082449889088:role/aws-ec2-spot-fleet-role",
           "LaunchSpecifications" : [ {
-              "ImageId" : "ami-7c491f05",
+              "ImageId" : "ami-0bdb1d6c15a40392c",
               "InstanceType" : "m3.medium"
           } ],
           "SpotPrice" : "0.09",
