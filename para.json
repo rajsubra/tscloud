@@ -1,7 +1,7 @@
 [
     {
         "ParameterKey": "Spotprice",
-        "ParameterValue": "0.0087"
+        "ParameterValue": "0.087"
     },
     {
         "ParameterKey": "TargetCapacity",
@@ -9,31 +9,31 @@
     },
     {
         "ParameterKey": "InstanceType",
-        "ParameterValue": "t2.micro"
+        "ParameterValue": "m3.medium"
     },
     {
         "ParameterKey": "Subnet1",
-        "ParameterValue": "subnet-3cd62f65"
+        "ParameterValue": "subnet-a4ed74ff"
     },
     {
         "ParameterKey": "SGname",
-        "ParameterValue": "sg-554d6b2d"
+        "ParameterValue": "sg-5e5c4a27"
     },
     {
         "ParameterKey": "IAMRole",
-        "ParameterValue": "arn:aws:iam::505728423372:instance-profile/aws-s3-access-ROLE"
+        "ParameterValue": "arn:aws:iam::082449889088:role/aws-ec2-spot-fleet-role"
     },
     {
         "ParameterKey": "Imageid",
-        "ParameterValue": "ami-0782017a917e973e7"
+        "ParameterValue": "ami-0bdb1d6c15a40392c"
     },
     {
         "ParameterKey": "KeyName",
-        "ParameterValue": "hashi-test"
+        "ParameterValue": "subrath7_pub"
     },
     {
         "ParameterKey": "FromDate",
-        "ParameterValue": "2018-08-27T16:32:37Z"
+        "ParameterValue": "2018-08-28T16:32:37Z"
     },
     {
         "ParameterKey": "ToDate",
