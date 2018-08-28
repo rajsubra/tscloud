@@ -1,0 +1,46 @@
+[
+    {
+        "ParameterKey": "Spotprice",
+        "ParameterValue": "0.0087"
+    },
+    {
+        "ParameterKey": "TargetCapacity",
+        "ParameterValue": "1"
+    },
+    {
+        "ParameterKey": "InstanceType",
+        "ParameterValue": "t2.micro"
+    },
+    {
+        "ParameterKey": "Subnet1",
+        "ParameterValue": "subnet-3cd62f65"
+    },
+    {
+        "ParameterKey": "SGname",
+        "ParameterValue": "sg-554d6b2d"
+    },
+    {
+        "ParameterKey": "IAMRole",
+        "ParameterValue": "arn:aws:iam::505728423372:instance-profile/aws-s3-access-ROLE"
+    },
+    {
+        "ParameterKey": "Imageid",
+        "ParameterValue": "ami-0782017a917e973e7"
+    },
+    {
+        "ParameterKey": "KeyName",
+        "ParameterValue": "hashi-test"
+    },
+    {
+        "ParameterKey": "FromDate",
+        "ParameterValue": "2018-08-27T16:32:37Z"
+    },
+    {
+        "ParameterKey": "ToDate",
+        "ParameterValue": "2018-10-27T14:50:37Z"
+    },
+    {
+        "ParameterKey": "command1",
+        "ParameterValue": "yum update -y"
+    }
+]
